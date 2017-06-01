@@ -1,8 +1,8 @@
 import {combineReducers} from 'redux'
+import fridgeData from '../data/fridge-items'
 
-import words from './words'
+import fridge from './fridge'
 
 export default combineReducers({
-  words
+  fridge:fridgeData
 })
-

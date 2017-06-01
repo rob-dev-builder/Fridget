@@ -1,6 +1,10 @@
-const words = (state = [], action) => {
+import fridgeData from '../data/fridge-items'
+const initialState = fridgeData
+
+
+const fridge = (state = initialState, action) => {
   switch (action.type) {
-    case 'ADD_WORD':
+    case 'ADD_FOOD':
       return [
         ...state,
         {
@@ -14,4 +18,4 @@ const words = (state = [], action) => {
   }
 }
 
-export default words
+export default fridge
