@@ -1,12 +1,10 @@
 import React from 'react'
+import InsideFridge from './InsideFridge'
 
-import AddWord from '../containers/AddWord'
-import Words from '../containers/Words'
 
 const App = () => (
   <div className='app-container'>
-    <Words />
-    <AddWord />
+<InsideFridge />
   </div>
 )
 
