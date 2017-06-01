@@ -1,6 +1,11 @@
-const words = (state = [], action) => {
+const initialState = [
+
+]
+
+
+const fridge = (state = initialState, action) => {
   switch (action.type) {
-    case 'ADD_WORD':
+    case 'ADD_FOOD':
       return [
         ...state,
         {
