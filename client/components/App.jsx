@@ -1,5 +1,5 @@
 import React from 'react'
-import InsideFridge from './InsideFridge'
+import InsideFridge from '../containers/InsideFridge'
 
 
 const App = () => (
