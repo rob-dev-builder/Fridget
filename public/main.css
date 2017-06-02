@@ -1,3 +1,4 @@
+
 .dot {
   width: 2rem;
   height: 2rem;
@@ -16,6 +17,14 @@ button {
 }
 .app-container{
   /*display:flex;*/
+}
+
+.fridge {
+ width: 650px;
+ height: 900px;
+ border-style: solid;
+ border-radius: 20px;
+ border-color: black;
 }
 
 .shelf1 {
@@ -41,16 +50,25 @@ button {
   border-style: solid;
   border-radius: 20px;
   border-color: darkgrey;
-  width: 100px;
-  height: 100px;
+  /*width: 100px;
+  height: 100px;*/
   display: inline-block;
 }
 
 .itemTitle {
-  background-color: gold;
+  background-color: #f2f0c1;
   text-align: center;
+  font-family: 'Permanent Marker', cursive;
 }
 .itemOwner {
+  background-color: #f2f0c1;
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
 }
 .itemExp {
+  background-color: #f2f0c1;
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+  padding-left: 15px;
+  padding-right: 15px;
 }
