@@ -1,32 +1,35 @@
-
-.dot {
-  width: 2rem;
-  height: 2rem;
-  border: 1px #ccc solid;
-  border-radius: 50%;
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-button {
-  width: 2rem;
-  height: 2rem;
-  border-radius: 50%;
+header {
+  font-family: 'Permanent Marker', cursive;
+  background-color: #f2f0c1;
+  text-align: center;
+  font-size: 30px;
 }
 
 .app-container{
-  /*display:flex;*/
 }
 
 .fridge {
- width: 650px;
- height: 900px;
- border-style: solid;
- border-radius: 20px;
- border-color: black;
+  width: 550px;
+  height: 700px;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: black;
+  padding-top: 50px;
+  background-color: rgb(170, 255, 252);
 }
 
 .shelf1 {
   /*border: medium dashed green;*/
   border-bottom: solid black;
+  height: 182px;
 
   /*flex-direction: row;*/
 }
@@ -34,11 +37,13 @@ button {
   /*border: medium dashed red;*/
   border-bottom: solid black;
   margin-top: 20px;
+  height: 182px;
 }
 .shelf3 {
   /*border: medium dashed blue;*/
   border-bottom: solid black;
   margin-top: 20px;
+  height: 182px;
 }
 
 .foodItem{
@@ -47,6 +52,7 @@ button {
   border-style: solid;
   border-radius: 20px;
   border-color: darkgrey;
+  background-color: #eeeeee;
   /*width: 100px;
   height: 100px;*/
   display: inline-block;
@@ -68,4 +74,14 @@ button {
   font-family: 'Permanent Marker', cursive;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.removeItem {
+  font-family: sans-serif;
+  border-radius: 7.5px;
+  background-color: red;
+  width: 15px;
+  text-align: center;
+  color: white;
+
 }

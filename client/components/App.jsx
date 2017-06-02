@@ -8,12 +8,14 @@ import ShelfThree from '../containers/ShelfThree'
 
 const App = () => (
   <div className='app-container'>
+    <header>Fridge-IT!
+    </header>
+    <AddItem />
     <div className='fridge'>
       <ShelfOne />
       <ShelfTwo />
       <ShelfThree />
     </div>
-    <AddItem />
   </div>
 )
 
