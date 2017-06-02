@@ -27,6 +27,27 @@ export default function () {
       expDate: '09/06/2017',
       owner: 'Rory',
       shelf: 3
+    },
+    {
+      id: 5,
+      item: 'Burger',
+      expDate: '09/01/2017',
+      owner: 'Jack',
+      shelf: 3
+    },
+    {
+      id: 6,
+      item: 'Lettuce',
+      expDate: '01/01/2001',
+      owner: 'Jim',
+      shelf: 2
+    },
+    {
+      id: 7,
+      item: 'Vodka',
+      expDate: '09/03/2011',
+      owner: 'Jae',
+      shelf: 3
     }
   ]
 }

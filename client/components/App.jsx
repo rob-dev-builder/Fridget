@@ -1,11 +1,23 @@
 import React from 'react'
-import InsideFridge from '../containers/InsideFridge'
+
 import AddItem from '../containers/AddItem'
+
+    
+
+import ShelfOne from '../containers/ShelfOne'
+import ShelfTwo from '../containers/ShelfTwo'
+import ShelfThree from '../containers/ShelfThree'
+
 
 const App = () => (
   <div className='app-container'>
-    <InsideFridge />
-    <AddItem />
+    <div className='fridge'>
+      <ShelfOne />
+      <ShelfTwo />
+      <ShelfThree />
+      <AddItem />
+    </div>
+
   </div>
 )
 
