@@ -13,7 +13,8 @@ class ShelfThree extends Component {
     return this.props.fridge.map((food) => {
       if (Number(food.shelf) === 3) {
         return (
-          <div className='foodItem' key={food.id} onClick={() => this.props.deleteItem(food)}>
+          <div className='foodItem' key={food.id}>
+            <p className='removeItem' onClick={() => this.props.deleteItem(food)}>X</p>
             <p className='itemTitle'>{food.item}</p>
             <p className='itemOwner'>{food.owner}</p>
             <ExpDate expDate={food.expDate} />
