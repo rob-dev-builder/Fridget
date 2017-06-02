@@ -1,9 +1,16 @@
-let nextWordId = 0
+let nextItemId = 5
 
-export const addWord = (word) => {
+export const ADD_ITEM = 'ADD_ITEM'
+
+export function addItem (item) {
   return {
-    type: 'ADD_WORD',
-    id: nextWordId++,
-    word
+    type: 'ADD_ITEM',
+    newItem:{
+      id: nextItemId++,
+      item: item.item,
+      owner: item.owner,
+      expdate: item.expdate,
+      shelf: item.shelf
+    }
   }
 }

@@ -1,4 +1,6 @@
 import React from 'react'
+
+import AddItem from '../containers/AddItem'
 import ShelfOne from '../containers/ShelfOne'
 import ShelfTwo from '../containers/ShelfTwo'
 import ShelfThree from '../containers/ShelfThree'
@@ -11,6 +13,7 @@ const App = () => (
       <ShelfTwo />
       <ShelfThree />
     </div>
+    <AddItem />
   </div>
 )
 

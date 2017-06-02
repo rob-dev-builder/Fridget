@@ -48,10 +48,15 @@ button {
   border-color: darkgrey;
   /*width: 100px;
   height: 100px;*/
-  display: inline-block;
 }
 
 .itemTitle {
+  background-color: gold;
+  text-align: center;
+}
+.itemOwner {
+}
+.itemExp {
   background-color: #f2f0c1;
   text-align: center;
   font-family: 'Permanent Marker', cursive;
@@ -60,11 +65,4 @@ button {
   background-color: #f2f0c1;
   text-align: center;
   font-family: 'Permanent Marker', cursive;
-}
-.itemExp {
-  background-color: #f2f0c1;
-  text-align: center;
-  font-family: 'Permanent Marker', cursive;
-  padding-left: 15px;
-  padding-right: 15px;
 }
