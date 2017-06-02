@@ -1,16 +1,13 @@
 import fridgeData from '../data/fridge-items'
-const initialState = fridgeData
-
+const initialState = fridgeData()
+console.log(initialState)
 
 const fridge = (state = initialState, action) => {
   switch (action.type) {
-    case 'ADD_FOOD':
+    case 'ADD_ITEM':
       return [
         ...state,
-        {
-          id: action.id,
-          word: action.word
-        }
+        action.newItem
       ]
 
     default:
