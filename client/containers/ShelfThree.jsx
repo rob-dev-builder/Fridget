@@ -1,7 +1,11 @@
 import React, {Component} from 'react'
 import {connect} from 'react-redux'
+
+import ExpDate from '../components/ExpDate'
+
 import {bindActionCreators} from 'redux'
 import {deleteItem} from '../actions/index'
+
 
 class ShelfThree extends Component {
 
@@ -13,7 +17,8 @@ class ShelfThree extends Component {
             <p className='removeItem' onClick={() => this.props.deleteItem(food)}>X</p>
             <p className='itemTitle'>{food.item}</p>
             <p className='itemOwner'>{food.owner}</p>
-            <p className='itemExp'>{food.expDate}</p>
+            <ExpDate expDate={food.expDate} />
+
           </div>
         )
       }

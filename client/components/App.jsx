@@ -12,6 +12,7 @@ const App = () => (
     </header>
     <AddItem />
     <div className='fridge'>
+
       <ShelfOne />
       <ShelfTwo />
       <ShelfThree />
