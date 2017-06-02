@@ -9,7 +9,8 @@ const fridge = (state = initialState, action) => {
         ...state,
         action.newItem
       ]
-
+    case 'DEL_ITEM':
+      return state.filter((item) => item !== action.item)
     default:
       return state
   }
