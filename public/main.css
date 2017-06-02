@@ -15,6 +15,14 @@ button {
   /*display:flex;*/
 }
 
+.fridge {
+ width: 650px;
+ height: 900px;
+ border-style: solid;
+ border-radius: 20px;
+ border-color: black;
+}
+
 .shelf1 {
   /*border: medium dashed green;*/
   border-bottom: solid black;
@@ -38,9 +46,8 @@ button {
   border-style: solid;
   border-radius: 20px;
   border-color: darkgrey;
-  width: 100px;
-  height: 100px;
-  display: inline-block;
+  /*width: 100px;
+  height: 100px;*/
 }
 
 .itemTitle {
@@ -50,4 +57,12 @@ button {
 .itemOwner {
 }
 .itemExp {
+  background-color: #f2f0c1;
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+}
+.itemOwner {
+  background-color: #f2f0c1;
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
 }
