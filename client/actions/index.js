@@ -1,4 +1,4 @@
-let nextItemId = 5
+let nextItemId = 8
 
 export const ADD_ITEM = 'ADD_ITEM'
 
@@ -9,7 +9,7 @@ export function addItem (item) {
       id: nextItemId++,
       item: item.item,
       owner: item.owner,
-      expdate: item.expdate,
+      expDate: item.expDate,
       shelf: item.shelf
     }
   }

@@ -5,7 +5,7 @@ class ShelfTwo extends Component {
 
   createShelfTwo () {
     return this.props.fridge.map((food) => {
-      if (food.shelf === 2) {
+      if (Number(food.shelf) === 2) {
         return (
           <div className='foodItem' key={food.id}>
             <p className='itemTitle'>{food.item}</p>
