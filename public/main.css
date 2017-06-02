@@ -10,3 +10,44 @@ button {
   height: 2rem;
   border-radius: 50%;
 }
+
+.app-container{
+  /*display:flex;*/
+}
+
+.shelf1 {
+  /*border: medium dashed green;*/
+  border-bottom: solid black;
+
+  /*flex-direction: row;*/
+}
+.shelf2 {
+  /*border: medium dashed red;*/
+  border-bottom: solid black;
+  margin-top: 20px;
+}
+.shelf3 {
+  /*border: medium dashed blue;*/
+  border-bottom: solid black;
+  margin-top: 20px;
+}
+
+.foodItem{
+  margin-right: 10px;
+  padding: 5px;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: darkgrey;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+
+.itemTitle {
+  background-color: gold;
+  text-align: center;
+}
+.itemOwner {
+}
+.itemExp {
+}
