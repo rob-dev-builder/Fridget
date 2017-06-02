@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import {connect} from 'react-redux'
+import ExpDate from '../components/ExpDate'
 
 class ShelfTwo extends Component {
 
@@ -10,7 +11,7 @@ class ShelfTwo extends Component {
           <div className='foodItem' key={food.id}>
             <p className='itemTitle'>{food.item}</p>
             <p className='itemOwner'>{food.owner}</p>
-            <p className='itemExp'>{food.expDate}</p>
+            <ExpDate expDate={food.expDate} />
           </div>
         )
       }

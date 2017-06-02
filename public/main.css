@@ -11,6 +11,9 @@ button {
   border-radius: 50%;
 }
 
+.expired {
+  color:red
+}
 .app-container{
   /*display:flex;*/
 }

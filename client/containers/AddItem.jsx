@@ -11,13 +11,25 @@ class AddItem extends React.Component {
       expDate: '',
       shelf: 0,
     }
-
     this.handleSubmit = this.handleSubmit.bind(this)
     this.handleChange = this.handleChange.bind(this)
   }
 
   handleSubmit (e) {
     e.preventDefault()
+    if(this.state.item === ''){
+      alert('FILL OUT THE FORM BRO')
+      return false
+    } else if (this.state.owner === ''){
+      alert('FILL OUT THE FORM BRO')
+      return false
+    } else if (this.state.expDate === ''){
+      alert('FILL OUT THE FORM BRO')
+      return false
+    } else if (this.state.shelf === ''){
+      alert('FILL OUT THE FORM BRO')
+      return false
+    }
     this.props.dispatch(addItem(this.state))
   }
 

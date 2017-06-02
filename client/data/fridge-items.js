@@ -3,7 +3,7 @@ export default function () {
     {
       id: 1,
       item: 'cheese',
-      expDate: '10/10/2013',
+      expDate: '2013/10/10',
       owner: 'Tony',
       shelf: 1
     },
