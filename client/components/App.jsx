@@ -9,11 +9,12 @@ import ShelfThree from '../containers/ShelfThree'
 const App = () => (
   <div className='app-container'>
     <div className='fridge'>
+    <AddItem />
       <ShelfOne />
       <ShelfTwo />
       <ShelfThree />
     </div>
-    <AddItem />
+
   </div>
 )
 

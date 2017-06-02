@@ -13,7 +13,12 @@ button {
 }
 
 .expired {
-  color:red
+  color:red;
+  background-color: #f2f0c1;
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .app-container{
   /*display:flex;*/
