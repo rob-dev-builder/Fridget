@@ -8,7 +8,7 @@ class AddItem extends React.Component {
     this.state = {
       item : '',
       owner: '',
-      expdate: '',
+      expDate: '',
       shelf: 0,
     }
 
@@ -45,9 +45,9 @@ class AddItem extends React.Component {
           <label> Owner: </label><br />
             <input type='text' name='owner' placeholder='Owners name' onChange = {e => this.handleChange(e)} /><br />
           <label> Expiry Date: </label><br />
-          <input type="date" name='expdate' placeholder='Enter the expiry date' onChange = {e => this.handleChange(e)} /><br />
+          <input type="date" name='expDate' placeholder='Enter the expiry date' onChange = {e => this.handleChange(e)} /><br />
           <label> Shelf number: </label><br />
-          <input type='integer'  name='shelf' placeholder='Enter the shelf number' onChange = {e => this.handleChange(e)} /><br />
+          <input type='number'  name='shelf' placeholder='Enter the shelf number' onChange = {e => this.handleChange(e)} /><br />
           <button>Submit</button>
         </form>
       </div>
