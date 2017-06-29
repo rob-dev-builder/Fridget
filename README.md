@@ -1,3 +1,6 @@
+### Fridge-It
+This a personal app to track items in a fridage.
+
 # A starter project for React/Redux
 
 > A minimalistic React/Redux starter project
